@@ -24,7 +24,11 @@ const LearnMore = () => {
 				<div className='overflow-hidden grid grid-cols-2'>
 					<div className='z-20 flex flex-col items-center justify-center text-4xl font-extrabold'>
 						<h3 style={{ color: "#333333" }}>Get in touch to learn more:</h3>
-						<h3 style={{ color: "#6ce0c4" }}>readyto@mergenow.com</h3>
+						<a href='mailto:hello@mergedup.com'>
+							<h3 className='text-dough-blue hover:text-dough-bluedark'>
+								hello@mergedup.com
+							</h3>
+						</a>
 					</div>
 					<div
 						className=' z-20 relative'
