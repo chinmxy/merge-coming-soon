@@ -5,7 +5,10 @@ import rightPointingFinger from "../../img/images/right-pointing-finger.svg";
 const LearnMore = () => {
 	return (
 		<div id='contact-us' className='relative'>
-			<div className='z-10 absolute bottom-0' style={{ width: "100%" }}>
+			<div
+				className='hidden lg:block xl:block z-10 absolute bottom-0'
+				style={{ width: "100%" }}
+			>
 				<svg
 					width='100%'
 					height='100%'
@@ -22,16 +25,19 @@ const LearnMore = () => {
 
 			<div className='py-24'>
 				<div className='overflow-hidden grid grid-cols-2'>
-					<div className='z-20 flex flex-col items-center justify-center text-4xl font-extrabold'>
-						<h3 style={{ color: "#333333" }}>Get in touch to learn more:</h3>
-						<a href='mailto:hello@mergedup.com'>
-							<h3 className='text-dough-blue hover:text-dough-bluedark'>
-								hello@mergedup.com
-							</h3>
-						</a>
+					<div className='z-20 col-span-2 text-2xl shadow shadow-md bg-white p-8 m-4 rounded-md bg-opacity-60 lg:pt-16 lg:rounded-none lg:shadow-none lg:col-span-1 lg:bg-transparent'>
+						<div className='flex flex-col items-center justify-center lg:text-4xl font-extrabold'>
+							<h3 style={{ color: "#333333" }}>Get in touch to learn more:</h3>
+							<a href='mailto:hello@mergedup.com'>
+								<h3 className='text-dough-blue hover:text-dough-bluedark'>
+									hello@mergedup.com
+								</h3>
+							</a>
+						</div>
 					</div>
+
 					<div
-						className=' z-20 relative'
+						className='hidden lg:block z-20 relative'
 						style={{ right: "-70px", top: "25px" }}
 					>
 						<img src={rightPointingFinger} />
