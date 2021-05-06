@@ -16,7 +16,7 @@ const Footer = () => {
 					© Merge 2021 | All rights reserved
 				</p>
 			</div>
-			<div className='hidden lg:block xl:block col-span-12 lg:col-span-2 col-start-5'>
+			<div className='hidden lg:block xl:block col-span-12 lg:col-span-2 lg:col-start-9'>
 				<div className='flex flex-col'>
 					<div className='w-full'>
 						<div className='flex flex-row space-x-8 my-7'>
@@ -37,7 +37,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className='col-span-12 lg:col-span-5 flex flex-row justify-center space-x-8 my-7'>
+			{/* <div className='hidden col-span-12 lg:col-span-5 flex flex-row justify-center space-x-8 my-7'>
 				<div className='w-8 h-8 lg:w-16 lg:h-16'>
 					<a href=''>
 						<img src={facebook} alt='' />
@@ -58,7 +58,7 @@ const Footer = () => {
 						<img src={telegram} alt='' />
 					</a>
 				</div>
-			</div>
+			</div> */}
 			<div className='pt-8 lg:hidden xl:hidden flex justify-center col-span-12 lg:col-span-2 lg:col-start-5'>
 				<div className='flex flex-row space-x-8'>
 					<div className='lg:w-full'>

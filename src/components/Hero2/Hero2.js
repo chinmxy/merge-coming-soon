@@ -15,8 +15,7 @@ const Hero = () => {
 									<div>
 										<h1 className='text-center md:text-left mt-4 text-4xl tracking-tight font-extrabold text-gray-900 sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl'>
 											<span className='md:block'>
-												Financial services infrastructure for the digital asset
-												economy{" "}
+												Crypto exchange services for the digital asset economy{" "}
 											</span>
 											{/* <span className='md:block'>easiest way to buy </span>
 
